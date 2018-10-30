@@ -49,14 +49,14 @@ div {
 /*Route planner*/
 .maps {
   position: absolute;
-  bottom: 10px;
+  bottom: 25px;
 }
 /*/Route planner*/
 /*Corners style*/
 .corners {
   background: #FFFCF1;
-  height: 700px;
-  margin: 50px;
+  padding:25px;
+  margin: 25px;
   max-width: 100%;
   position: relative;
   width: 80%;
