@@ -6,33 +6,81 @@
     <title>Markdown-warm-up</title>
   </head>
   <body>
+<!--Corners style -->
     <div class="corners">
+      <label for="dutch" class="btn">Dutch</label>
+      <input type="radio" name="lang" id="dutch" checked>
+
+      <label for="english" class="btn">English</label>
+      <input type="radio" name="lang" id="english">
+<!--/Corners style -->
     <h1>Markdown-warm-up</h1>
     <hr>
+<!--Dutch class -->
+    <div class="wrapper">
+        <div class="dutch">
+          <h4>Welke website heeft u gevonden? (naam, url, link).</h4>
+          <p><a href="http://www.oberonn.be/index.php">oberonn</a></p>
 
-    <h4>Welke website heeft u gevonden? (naam, url, link).</h4>
-    <p><a href="http://www.oberonn.be/index.php">oberonn</a></p>
+          <h4>Wordt het regelmatig bijgewerkt?</h4>
+          <p>Volgens web.archive.org was de laaste update in 2014.</p>
 
-    <h4>Wordt het regelmatig bijgewerkt?</h4>
-    <p>Volgens web.archive.org was de laaste update in 2014.</p>
+          <h4>Hoe heb je het gevonden ?</h4>
+          <p>Game shop in hasselt.</p>
 
-    <h4>Hoe heb je het gevonden ?</h4>
-    <p>Game shop in hasselt.</p>
+          <h4>Waarom heeft deze website updates of een remake nodig?</h4>
+          <p>Website is een beetje outdated en geeft weinig informatie weer.</p>
 
-    <h4>Waarom heeft deze website updates of een remake nodig?</h4>
-    <p>Website is een beetje outdated en geeft weinig informatie weer.</p>
+          <h4>Is deze website aanwezig op sociale netwerken?</h4>
+          <p>Er zijn links aanwezig voor de Facebook pagina.</p>
 
-    <h4>Is deze website aanwezig op sociale netwerken?</h4>
-    <p>Er zijn links aanwezig voor de Facebook pagina.</p>
+          <h4>Maak een lijst met aanbevelingen van toekomstige wijzigingen.</h4>
+          <ul>
+            <li>De look van de site is outdated en geeft niet direct weer dat het een game shop is.</li>
+            <li>Meer social media intergratie (bv twitter).</li>
+            <li>Meer interactieve elementen</li>
+            <li>Facebook chat integratie</li>
+          </ul>
+          <form class="maps" action="http://maps.google.com/maps" method="get" target="_blank">
+             <label for="saddr">Voer uw adres in.</label>
+             <input type="text" name="saddr" />
+             <input type="hidden" name="daddr" value="Kempische Steenweg 27, 3500 Hasselt (Oberonn Hasselt)" />
+             <input type="submit" value="Route planner" />
+          </form>
+        </div>
+<!--/Dutch class -->
+<!--English class -->
+        <div class="english">
+          <h4>Which website did you find? (name, url, link).</h4>
+          <p><a href="http://www.oberonn.be/index.php">oberonn</a></p>
 
-    <h4>Maak een lijst met aanbevelingen van toekomstige wijzigingen.</h4>
-    <ul>
-      <li>De look van de site is outdated en geeft niet direct weer dat het een game shop is.</li>
-      <li>Meer social media intergratie (bv twitter).</li>
-      <li>Meer interactieve elementen</li>
-      <li>Facebook chat integratie</li>
-    </ul>
+          <h4>Does it get regular updates?</h4>
+          <p>according to .archive.org the last update was in 2014.</p>
 
+          <h4>How did you find it?</h4>
+          <p>Game shop in hasselt.</p>
 
+          <h4>Why does this site need an update or revamp?</h4>
+          <p>Website is a little outdated and does not show a lot of information.</p>
+
+          <h4>Is this site present on social media?</h4>
+          <p>There are links present for Facebook.</p>
+
+          <h4>Make a list with recommended future updates.</h4>
+          <ul>
+            <li>The overall look of the site is a little outdated and does not reflect it being a Game shop.</li>
+            <li>More social media intergration (ie twitter).</li>
+            <li>More interactive elements</li>
+            <li>Facebook chat intergration</li>
+          </ul>
+          <form class="maps" action="http://maps.google.com/maps" method="get" target="_blank">
+             <label for="saddr">Input your location.</label>
+             <input type="text" name="saddr" />
+             <input type="hidden" name="daddr" value="Kempische Steenweg 27, 3500 Hasselt (Oberonn Hasselt)" />
+             <input type="submit" value="Plan route" />
+          </form>
+        </div>
+<!--/English class -->
+    </div>
   </body>
 </html>
