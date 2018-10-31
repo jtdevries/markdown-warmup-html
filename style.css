@@ -1,7 +1,3 @@
-body {
-  background: #8971FF;
-  font-family: sans-serif;
-}
 /*Dutch class*/
 #dutch:checked ~ .wrapper .dutch{
    display: block;
@@ -28,6 +24,10 @@ body {
   display: block;
 }
 /*English class*/
+body {
+  background: #8971FF;
+  font-family: sans-serif;
+}
 h1 {
   text-align: center;
 }
@@ -45,6 +45,13 @@ div {
   padding-right: 20px;
   padding-bottom: 50px;
   padding-left: 20px;
+}
+.becode {
+  float: right;
+  position: relative;
+  opacity: 0.2;
+  width: 100px;
+  height: 100px;
 }
 /*Route planner*/
 .maps {
